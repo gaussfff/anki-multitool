@@ -1,0 +1,44 @@
+[workspace]
+resolver = "3"
+members = [
+    "anki-multitool-cli",
+    "anki-multitool-dict",
+]
+
+[workspace.package]
+version = "0.0.1"
+edition = "2024"
+authors = ["Bohdan Sokolovskyi <sokol.chemist@gmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/gaussfff/anki-multitool"
+homepage = "https://github.com/gaussfff/anki-multitool"
+description = "CLI with useful utils for interacting with Anki"
+keywords = [
+    "anki",
+    "cli",
+    "multitool",
+    "utils",
+    "anki-cli",
+    "anki-utils",
+    "anki-multitool",
+]
+categories = [
+    "command-line-utilities",
+    "development-tools",
+    "education",
+]
+readme = "README.md"
+
+[workspace.dependencies]
+
+[profile.dev]
+opt-level = 0
+debug = true
+
+[profile.release]
+opt-level = 3
+debug = false
+
+[profile.test]
+opt-level = 0
+debug = 2
