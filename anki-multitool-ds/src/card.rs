@@ -13,13 +13,13 @@ impl FromStr for Card {
 
     /// Parses a string in the format "front - back" into a Card.
     fn from_str(s: &str) -> Result<Self, Self::Err> {
-        let parts: Vec<&str> = s.splitn(2, "-").collect();
-
-        if parts.iter().any(|&s| s.is_empty()) {
+        if !s.contains('-') || s.trim().starts_with('-') || s.trim().ends_with('-') {
             return Err(anyhow!(
                 "invalid card format, expected 'front - back', got: {s}"
             ));
         }
+
+        let parts: Vec<&str> = s.splitn(2, "-").collect();
 
         let [front, back] = parts.as_slice() else {
             return Err(anyhow!(

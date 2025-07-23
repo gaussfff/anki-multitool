@@ -1,6 +1,6 @@
 [package]
 name = "anki-multitool-util"
-description = "set of userful utils to live more easily"
+description = "set of useful utils to live more easily"
 edition.workspace = true
 version.workspace = true
 authors.workspace = true
