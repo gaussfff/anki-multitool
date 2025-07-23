@@ -53,7 +53,7 @@ export ANKI_MULTITOOL_PORT="<custom-port>"
 By default, tool will listening on `localhost:8765`.
 
 ## Formats
-Anki-multitool supports two formats for importing and exporting decks: JSON and Markdown. Full examples you can find in `examples` directory.
+Anki-multitool supports two formats for importing and exporting decks: JSON and Markdown. Full examples you can find in [`examples`](https://github.com/gaussfff/anki-multitool/tree/master/resources/examples) directory.
 
 ### JSON format
 Name of file is deck name, so if you want to export deck named "My Deck" to JSON file, it will be saved as `my_deck.json`. 
@@ -64,7 +64,7 @@ Here is example of JSON format used for importing and exporting decks:
 ```json
 [
     {
-      "front": "What is the capital of Urakine?",
+      "front": "What is the capital of Ukraine?",
       "back": "Kyiv"
     },
     {
@@ -79,7 +79,7 @@ Name of file is deck name, so if you want to export deck named "My Deck" to Mark
 Vice versa, if you want to import deck from Markdown file, the name of the deck will be taken from the file name (without extension).
 If deck doesn't exist in Anki, it will be created automatically.
 
-Here is example of Markdown formats used for importing and exporting decks:
+Here is an example of Markdown formats used for importing and exporting decks:
 ```markdown
 1. What is the capital of Ukraine? - Kyiv
 2. What is the capital of Germany? - Berlin
@@ -91,9 +91,6 @@ and
 - What is the capital of Ukraine? - Kyiv
 - What is the capital of Germany? - Berlin
 ```
-
-### More examples
-More examples you can find [here](https://github.com/gaussfff/anki-multitool/tree/master/resources/examples).
 
 ## License
 This software is under the MIT license. See details in [license file](https://github.com/gaussfff/anki-multitool/blob/master/LICENSE-MIT).
