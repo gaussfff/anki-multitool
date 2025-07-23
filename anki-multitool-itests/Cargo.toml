@@ -1,5 +1,6 @@
 [package]
 name = "anki-multitool-itests"
+description = "contains integration tests of application"
 edition.workspace = true
 version.workspace = true
 authors.workspace = true
@@ -9,7 +10,6 @@ homepage.workspace = true
 keywords.workspace = true
 categories.workspace = true
 readme.workspace = true
-description = "contains integration tests of application"
 
 [dependencies]
 tokio = { version = "1.46.1", features = ["test-util", "rt"] }

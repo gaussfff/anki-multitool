@@ -1,6 +1,7 @@
 [package]
 name = "anki-multitool-convert"
-edition = "2024"
+description = "contains json and markdown converters"
+edition.workspace = true
 version.workspace = true
 authors.workspace = true
 license.workspace = true
@@ -9,7 +10,6 @@ homepage.workspace = true
 keywords.workspace = true
 categories.workspace = true
 readme.workspace = true
-description = ""
 
 [dependencies]
 pulldown-cmark = "0.13.0"

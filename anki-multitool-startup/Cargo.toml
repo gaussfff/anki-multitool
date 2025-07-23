@@ -1,6 +1,7 @@
 [package]
 name = "anki-multitool-startup"
-edition = "2024"
+description = "entry point of app"
+edition.workspace = true
 version.workspace = true
 authors.workspace = true
 license.workspace = true
@@ -9,7 +10,6 @@ homepage.workspace = true
 keywords.workspace = true
 categories.workspace = true
 readme.workspace = true
-description = ""
 
 [[bin]]
 name = "anki-mtool"

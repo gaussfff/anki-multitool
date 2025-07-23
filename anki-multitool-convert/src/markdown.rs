@@ -86,7 +86,7 @@ impl Iterator for MarkdownListStream {
                         Event::Start(Tag::List(Some(_))) => {
                             if self.type_list.is_unordered() {
                                 return Some(Err(anyhow!(
-                                    "mixed or nested list are not suppoerted"
+                                    "mixed or nested list are not supported"
                                 )));
                             }
 

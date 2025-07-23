@@ -1,6 +1,6 @@
 [package]
 name = "anki-multitool-test-util"
-description = "set of userful utils to test more easily"
+description = "set of useful utils to test more easily"
 edition.workspace = true
 version.workspace = true
 authors.workspace = true

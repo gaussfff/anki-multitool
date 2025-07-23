@@ -1,6 +1,7 @@
 [package]
 name = "anki-multitool-request"
-edition = "2024"
+description = "contains functionality for interaction with AnkiClient API"
+edition.workspace = true
 version.workspace = true
 authors.workspace = true
 license.workspace = true
@@ -9,7 +10,6 @@ homepage.workspace = true
 keywords.workspace = true
 categories.workspace = true
 readme.workspace = true
-description = ""
 
 [dependencies]
 reqwest = { workspace = true }

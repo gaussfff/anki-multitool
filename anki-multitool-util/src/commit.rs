@@ -71,7 +71,7 @@ mod tests {
         FileCommitBuffer::new(
             async |data| Ok(format!("prepared {data}")),
             async |data| {
-                writeln!(Arc::clone(&file).lock().expect("poisoned mutex"), "{data}")?;
+                writeln!(Arc::clone(&file).lock().expect("failed to get file"), "{data}")?;
                 Ok(())
             },
         )
@@ -81,11 +81,11 @@ mod tests {
         .expect("failed to commit data");
 
         file.lock()
-            .expect("poisoned mutex")
+            .expect("failed to get file")
             .rewind()
             .expect("failed to rewind temp file");
 
-        let file_guard = file.lock().expect("poisoned mutex");
+        let file_guard = file.lock().expect("failed to get file");
         let mut lines = BufReader::new(file_guard.as_file()).lines();
 
         assert_eq!(lines.next().unwrap().unwrap(), "prepared line1");
@@ -118,7 +118,7 @@ mod tests {
                     Ok(data)
                 },
                 async |data| {
-                    writeln!(Arc::clone(&file).lock().expect("poisoned mutex"), "{data}")?;
+                    writeln!(Arc::clone(&file).lock().expect("failed to get file"), "{data}")?;
                     Ok(())
                 }
             )
@@ -129,7 +129,7 @@ mod tests {
         );
 
         assert_eq!(
-            metadata(file.lock().expect("poisoned mutes").path())
+            metadata(file.lock().expect("failed to get file").path())
                 .expect("failed to get metadata of file")
                 .len(),
             0
