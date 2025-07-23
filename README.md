@@ -86,7 +86,7 @@ and
 ```
 
 ## License
-This software is under the MIT license. See details in license file.
+This software is under the MIT license. See details in [license file](https://github.com/gaussfff/anki-multitool/blob/master/LICENSE-MIT).
 
 ## Contribution
 So-so, just create issue or PR, I will try to fix or approve it as soon as possible 😉
