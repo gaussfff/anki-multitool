@@ -42,7 +42,7 @@ pub enum Command {
     },
     #[command(name = "md2deck", about = "📄 -> 🃏 Import a deck from a Markdown file into Anki")]
     Md2deck {
-        #[arg(value_name = "PATH", help = "Import a deck from a Markdown file into Anki, if deck exists, it will return error")]
+        #[arg(value_name = "PATH", help = "Path to the Markdown file")]
         path: String 
     },
     #[command(name = "deck2md", about = "🃏 -> 📄 Export a deck from Anki to a Markdown file, if file exists, it will return error")]
