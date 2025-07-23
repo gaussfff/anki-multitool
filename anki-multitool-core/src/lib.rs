@@ -79,6 +79,10 @@ impl ToolController {
     }
 
     pub async fn convert_json_to_deck<P: AsRef<Path>>(&self, path: P) -> Result<String> {
+        if !path.as_ref().exists() {
+            return Err(anyhow!("file {} does not exist", path.as_ref().display()));
+        }
+        
         let deck_name = file::to_file_name(path.as_ref())?;
         self.new_deck(deck_name.as_str()).await?;
 
@@ -96,6 +100,10 @@ impl ToolController {
     }
 
     pub async fn convert_md_to_deck<P: AsRef<Path>>(&self, path: P) -> Result<String> {
+        if !path.as_ref().exists() {
+            return Err(anyhow!("file {} does not exist", path.as_ref().display()));
+        }
+        
         let deck_name = file::to_file_name(path.as_ref())?;
         self.new_deck(deck_name.as_str()).await?;
 
