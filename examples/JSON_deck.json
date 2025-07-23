@@ -1,0 +1,402 @@
+[
+  {
+    "front": "What is the fastest land animal?",
+    "back": "Cheetah"
+  },
+  {
+    "front": "What mammal lays eggs?",
+    "back": "Platypus"
+  },
+  {
+    "front": "What is the largest animal on Earth?",
+    "back": "blue whale"
+  },
+  {
+    "front": "Do penguins fly?",
+    "back": "No"
+  },
+  {
+    "front": "What do pandas eat?",
+    "back": "bamboo"
+  },
+  {
+    "front": "Which animal is known as the king of the jungle?",
+    "back": "Lion"
+  },
+  {
+    "front": "Can dolphins breathe underwater?",
+    "back": "No, they breathe air"
+  },
+  {
+    "front": "What animal never sleeps?",
+    "back": "bullfrog"
+  },
+  {
+    "front": "What animal has the longest lifespan?",
+    "back": "Greenland shark"
+  },
+  {
+    "front": "Are bats blind?",
+    "back": "No"
+  },
+  {
+    "front": "Where do lions live?",
+    "back": "Savannas of Africa"
+  },
+  {
+    "front": "What do tigers eat?",
+    "back": "Meat"
+  },
+  {
+    "front": "Are elephants herbivores?",
+    "back": "Yes"
+  },
+  {
+    "front": "Do giraffes have vocal cords?",
+    "back": "Yes, but they rarely use them"
+  },
+  {
+    "front": "Which animal has a mane besides a lion?",
+    "back": "Horse"
+  },
+  {
+    "front": "What\u2019s a baby deer called?",
+    "back": "fawn"
+  },
+  {
+    "front": "Can zebras be domesticated?",
+    "back": "No, not easily"
+  },
+  {
+    "front": "Which bear is the largest?",
+    "back": "Polar bear"
+  },
+  {
+    "front": "Do crocodiles chew their food?",
+    "back": "No"
+  },
+  {
+    "front": "Where do koalas live?",
+    "back": "Australia"
+  },
+  {
+    "front": "Are dogs omnivores?",
+    "back": "Yes"
+  },
+  {
+    "front": "What breed is the smallest dog?",
+    "back": "Chihuahua"
+  },
+  {
+    "front": "Can cats see in the dark?",
+    "back": "Yes, very well"
+  },
+  {
+    "front": "Do rabbits eat meat?",
+    "back": "No"
+  },
+  {
+    "front": "What do hamsters store in their cheeks?",
+    "back": "food"
+  },
+  {
+    "front": "Can parrots talk?",
+    "back": "Some can mimic speech"
+  },
+  {
+    "front": "Do guinea pigs sleep a lot?",
+    "back": "Yes, in short naps"
+  },
+  {
+    "front": "What pet is known for climbing glass?",
+    "back": "Gecko"
+  },
+  {
+    "front": "Do goldfish have good memory?",
+    "back": "better than people think"
+  },
+  {
+    "front": "How long do turtles live?",
+    "back": "Some over 100 years"
+  },
+  {
+    "front": "What bird is a symbol of peace?",
+    "back": "Dove"
+  },
+  {
+    "front": "Which bird can\u2019t fly?",
+    "back": "Ostrich"
+  },
+  {
+    "front": "What bird is known for mimicking sounds?",
+    "back": "Mockingbird"
+  },
+  {
+    "front": "Which bird lays the largest egg?",
+    "back": "Ostrich"
+  },
+  {
+    "front": "Can penguins live in warm climates?",
+    "back": "Yes, some can"
+  },
+  {
+    "front": "What bird is the fastest flyer?",
+    "back": "Peregrine falcon"
+  },
+  {
+    "front": "Do owls see in daylight?",
+    "back": "Yes, but prefer night"
+  },
+  {
+    "front": "What bird has colorful tail feathers?",
+    "back": "Peacock"
+  },
+  {
+    "front": "Which bird can hover in mid-air?",
+    "back": "Hummingbird"
+  },
+  {
+    "front": "Are flamingos born pink?",
+    "back": "No, they're gray"
+  },
+  {
+    "front": "What reptile can regrow its tail?",
+    "back": "Lizard"
+  },
+  {
+    "front": "Are snakes deaf?",
+    "back": "They lack outer ears"
+  },
+  {
+    "front": "Do frogs drink water?",
+    "back": "Through their skin"
+  },
+  {
+    "front": "What\u2019s the only venomous lizard?",
+    "back": "Gila monster"
+  },
+  {
+    "front": "Can chameleons change color?",
+    "back": "Yes"
+  },
+  {
+    "front": "Are turtles reptiles?",
+    "back": "Yes"
+  },
+  {
+    "front": "Do crocodiles cry?",
+    "back": "Yes, to lubricate eyes"
+  },
+  {
+    "front": "What\u2019s a baby frog called?",
+    "back": "Tadpole"
+  },
+  {
+    "front": "Do salamanders live in water?",
+    "back": "Many do"
+  },
+  {
+    "front": "Are all snakes venomous?",
+    "back": "No"
+  },
+  {
+    "front": "Do fish sleep?",
+    "back": "Yes, they rest"
+  },
+  {
+    "front": "What\u2019s the biggest fish?",
+    "back": "Whale shark"
+  },
+  {
+    "front": "Can octopuses regrow arms?",
+    "back": "Yes"
+  },
+  {
+    "front": "Do jellyfish have brains?",
+    "back": "No"
+  },
+  {
+    "front": "How many hearts does an octopus have?",
+    "back": "Three"
+  },
+  {
+    "front": "What fish is known for inflating?",
+    "back": "Pufferfish"
+  },
+  {
+    "front": "Do sharks have bones?",
+    "back": "No, cartilage"
+  },
+  {
+    "front": "What sea creature has eight legs?",
+    "back": "Octopus"
+  },
+  {
+    "front": "Is coral an animal?",
+    "back": "Yes"
+  },
+  {
+    "front": "What\u2019s the fastest fish?",
+    "back": "black marlin"
+  },
+  {
+    "front": "Do ants sleep?",
+    "back": "Sort of \u2014 they rest"
+  },
+  {
+    "front": "What insect has the shortest lifespan?",
+    "back": "Mayfly"
+  },
+  {
+    "front": "Do bees die after stinging?",
+    "back": "Only honeybees"
+  },
+  {
+    "front": "What insect makes silk?",
+    "back": "Silkworm"
+  },
+  {
+    "front": "Are spiders insects?",
+    "back": "No, they\u2019re arachnids"
+  },
+  {
+    "front": "How many legs does a spider have?",
+    "back": "Eight"
+  },
+  {
+    "front": "What bug glows at night?",
+    "back": "firefly"
+  },
+  {
+    "front": "Can butterflies taste with their feet?",
+    "back": "Yes"
+  },
+  {
+    "front": "Which insect carries diseases?",
+    "back": "Mosquito"
+  },
+  {
+    "front": "Are ladybugs harmful?",
+    "back": "No, they\u2019re helpful"
+  },
+  {
+    "front": "What sound does a cow make?",
+    "back": "Moo"
+  },
+  {
+    "front": "Do goats eat everything?",
+    "back": "No, but they chew a lot"
+  },
+  {
+    "front": "What\u2019s a baby pig called?",
+    "back": "Piglet"
+  },
+  {
+    "front": "Can chickens fly?",
+    "back": "Just short distances"
+  },
+  {
+    "front": "Do sheep have teeth?",
+    "back": "Yes, on the bottom"
+  },
+  {
+    "front": "What do ducks eat?",
+    "back": "Insects, plants, grains"
+  },
+  {
+    "front": "Are horses herbivores?",
+    "back": "Yes"
+  },
+  {
+    "front": "Do cows have four stomachs?",
+    "back": "One with four chambers"
+  },
+  {
+    "front": "What color is most dairy cows?",
+    "back": "black and white"
+  },
+  {
+    "front": "Do roosters lay eggs?",
+    "back": "No"
+  },
+  {
+    "front": "What animal laughs?",
+    "back": "Hyena"
+  },
+  {
+    "front": "Do sloths move fast?",
+    "back": "No, very slowly"
+  },
+  {
+    "front": "What animal has blue blood?",
+    "back": "Horseshoe crab"
+  },
+  {
+    "front": "Can camels store water?",
+    "back": "No, they store fat"
+  },
+  {
+    "front": "Do kangaroos walk backwards?",
+    "back": "No"
+  },
+  {
+    "front": "Are jellyfish immortal?",
+    "back": "Some are biologically"
+  },
+  {
+    "front": "What animal has no vocal cords?",
+    "back": "Giraffe"
+  },
+  {
+    "front": "Do ants farm?",
+    "back": "Yes, some do"
+  },
+  {
+    "front": "Can elephants jump?",
+    "back": "No"
+  },
+  {
+    "front": "What\u2019s the smallest mammal?",
+    "back": "bumblebee bat"
+  },
+  {
+    "front": "Are crows smart?",
+    "back": "Yes, very"
+  },
+  {
+    "front": "Do dolphins recognize themselves?",
+    "back": "Yes"
+  },
+  {
+    "front": "Can elephants mourn?",
+    "back": "Yes"
+  },
+  {
+    "front": "Do rats learn mazes?",
+    "back": "Yes"
+  },
+  {
+    "front": "Can pigs be trained?",
+    "back": "Yes"
+  },
+  {
+    "front": "Are octopuses intelligent?",
+    "back": "Highly"
+  },
+  {
+    "front": "Do dogs understand words?",
+    "back": "Some do"
+  },
+  {
+    "front": "Can cats solve problems?",
+    "back": "Yes"
+  },
+  {
+    "front": "Are bees capable of math?",
+    "back": "Simple math, yes"
+  },
+  {
+    "front": "Can animals feel empathy?",
+    "back": "Some can"
+  }
+]

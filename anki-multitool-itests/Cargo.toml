@@ -1,0 +1,22 @@
+[package]
+name = "anki-multitool-itests"
+edition.workspace = true
+version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+keywords.workspace = true
+categories.workspace = true
+readme.workspace = true
+description = "contains integration tests of application"
+
+[dependencies]
+tokio = { version = "1.46.1", features = ["test-util", "rt"] }
+anyhow = { workspace = true }
+serde_json = { workspace = true }
+tempfile = { workspace = true }
+anki-multitool-test-util = { path = "../anki-multitool-test-util" }
+anki-multitool-util = { path = "../anki-multitool-util" }
+anki-multitool-core = { path = "../anki-multitool-core" }
+anki-multitool-request = { path = "../anki-multitool-request" }

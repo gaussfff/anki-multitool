@@ -1,0 +1,19 @@
+[package]
+name = "anki-multitool-core"
+edition = "2024"
+version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+keywords.workspace = true
+categories.workspace = true
+readme.workspace = true
+description = ""
+
+[dependencies]
+anki-multitool-request = { path = "../anki-multitool-request" }
+anki-multitool-convert = { path = "../anki-multitool-convert" }
+anki-multitool-util = { path = "../anki-multitool-util" }
+anki-multitool-ds = { path = "../anki-multitool-ds" }
+anyhow = { workspace = true }

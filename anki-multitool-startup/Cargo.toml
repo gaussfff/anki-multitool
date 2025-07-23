@@ -1,0 +1,22 @@
+[package]
+name = "anki-multitool-startup"
+edition = "2024"
+version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+keywords.workspace = true
+categories.workspace = true
+readme.workspace = true
+description = ""
+
+[[bin]]
+name = "anki-mtool"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.5.40", features = ["derive"] }
+tokio = { workspace = true }
+anyhow = { workspace = true }
+anki-multitool-core = { path = "../anki-multitool-core" }

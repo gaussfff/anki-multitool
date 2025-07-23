@@ -1,0 +1,23 @@
+[package]
+name = "anki-multitool-request"
+edition = "2024"
+version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+keywords.workspace = true
+categories.workspace = true
+readme.workspace = true
+description = ""
+
+[dependencies]
+reqwest = { workspace = true }
+tokio = { workspace = true }
+anyhow = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+anki-multitool-ds = { path = "../anki-multitool-ds" }
+
+[dev-dependencies]
+anki-multitool-test-util = { path = "../anki-multitool-test-util" }

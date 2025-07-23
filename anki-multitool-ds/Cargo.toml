@@ -1,14 +1,19 @@
 [package]
-name = "anki-multitool-dict"
+name = "anki-multitool-ds"
 edition = "2024"
 version.workspace = true
 authors.workspace = true
 license.workspace = true
 repository.workspace = true
 homepage.workspace = true
-description.workspace = true
 keywords.workspace = true
 categories.workspace = true
 readme.workspace = true
+description = ""
+
+[features]
+test = []
 
 [dependencies]
+anyhow = { workspace = true }
+serde = { workspace = true }

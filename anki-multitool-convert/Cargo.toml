@@ -1,0 +1,27 @@
+[package]
+name = "anki-multitool-convert"
+edition = "2024"
+version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+keywords.workspace = true
+categories.workspace = true
+readme.workspace = true
+description = ""
+
+[dependencies]
+pulldown-cmark = "0.13.0"
+reqwest = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+anyhow = { workspace = true }
+tokio = { workspace = true}
+anki-multitool-request = { path = "../anki-multitool-request" }
+anki-multitool-ds = { path = "../anki-multitool-ds" }
+anki-multitool-util = { path = "../anki-multitool-util" }
+
+[dev-dependencies]
+tempfile = "3.20.0"
+tokio = { workspace = true }
