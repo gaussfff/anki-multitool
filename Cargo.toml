@@ -12,6 +12,15 @@ members = [
     "anki-multitool-itests",
 ]
 
+default-members = [
+    "anki-multitool-startup",
+    "anki-multitool-core",
+    "anki-multitool-convert",
+    "anki-multitool-ds",
+    "anki-multitool-request",
+    "anki-multitool-util",
+]
+
 [workspace.package]
 version = "0.0.1"
 edition = "2024"
