@@ -1,8 +1,17 @@
-use clap::{Parser, Subcommand};
+use clap::{
+    Parser, 
+    Subcommand, 
+    builder::{
+        Styles,
+        styling::AnsiColor,
+    }
+};
 
 #[derive(Parser)]
 #[command(disable_version_flag = true)]
 #[command(disable_help_flag = true)]
+#[command(color = clap::ColorChoice::Auto)]
+#[command(styles = get_styles())]
 pub struct Cli {
     #[command(subcommand)]
     pub command: Command,
@@ -10,13 +19,47 @@ pub struct Cli {
 
 #[derive(Subcommand)]
 pub enum Command {
+    #[command(name = "info", about = "📝 Show description about anki-multitool")]
+    Info,
+    #[command(name = "version", about = "🏷️ Show version of anki-multitool")]
     Version,
+    #[command(name = "decklist", about = "📋 List all decks in your Anki collection")]
     Decklist,
-    Newdeck { deck: String },
-    Json2deck { path: String },
-    Deck2json { deck: String },
-    Md2deck { path: String },
-    Deck2md { deck: String },
+    #[command(name = "newdeck", about = "➕🃏 Create a new deck in Anki")]
+    Newdeck {
+        #[arg(value_name = "DECK_NAME", help = "Name of deck")]
+        deck: String 
+    },
+    #[command(name = "json2deck", about = "📄 -> 🃏 Import a deck from a JSON file into Anki, if deck exists, it will return error")]
+    Json2deck {
+        #[arg(value_name = "PATH", help = "Path to the JSON file")]
+        path: String 
+    },
+    #[command(name = "deck2json", about = "🃏 -> 📄 Export a deck from Anki to a JSON file, if file exists, it will return error")]
+    Deck2json {
+        #[arg(value_name = "DECK_NAME", help = "Name of deck to export")]
+        deck: String 
+    },
+    #[command(name = "md2deck", about = "📄 -> 🃏 Import a deck from a Markdown file into Anki")]
+    Md2deck {
+        #[arg(value_name = "PATH", help = "Import a deck from a Markdown file into Anki, if deck exists, it will return error")]
+        path: String 
+    },
+    #[command(name = "deck2md", about = "🃏 -> 📄 Export a deck from Anki to a Markdown file, if file exists, it will return error")]
+    Deck2md {
+        #[arg(value_name = "DECK_NAME", help = "Name of deck to export")]
+        deck: String 
+    },
+}
+
+fn get_styles() -> Styles {
+    Styles::styled()
+        .header(AnsiColor::Green.on_default())
+        .usage(AnsiColor::Green.on_default())
+        .literal(AnsiColor::Blue.on_default().bold())
+        .error(AnsiColor::Red.on_default())
+        .valid(AnsiColor::Green.on_default())
+        .invalid(AnsiColor::Red.on_default())
 }
 
 #[cfg(test)]
@@ -37,7 +80,10 @@ mod tests {
     #[test]
     fn test_cli() {
         let mut cli =
-            parse_args(&["anki-mtool", "version"]).expect("failed to parse CLI arguments");
+            parse_args(&["anki-mtool", "info"]).expect("failed to parse CLI arguments");
+        assert!(matches!(cli.command, Command::Info));
+        
+        cli = parse_args(&["anki-mtool", "version"]).expect("failed to parse CLI arguments");
         assert!(matches!(cli.command, Command::Version));
 
         cli = parse_args(&["anki-mtool", "decklist"]).expect("failed to parse CLI arguments");

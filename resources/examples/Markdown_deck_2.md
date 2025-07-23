@@ -1,100 +1,100 @@
-- What is the fastest land animal? — Cheetah
-- What mammal lays eggs? — Platypus
-- What is the largest animal on Earth? — Blue whale
-- Do penguins fly? — No
-- What do pandas eat? — Bamboo
-- Which animal is known as the king of the jungle? — Lion
-- Can dolphins breathe underwater? — No, they breathe air
-- What animal never sleeps? — Bullfrog
-- What animal has the longest lifespan? — Greenland shark
-- Are bats blind? — No
-- Where do lions live? — Savannas of Africa
-- What do tigers eat? — Meat
-- Are elephants herbivores? — Yes
-- Do giraffes have vocal cords? — Yes, but they rarely use them
-- Which animal has a mane besides a lion? — Horse
-- What’s a baby deer called? — Fawn
-- Can zebras be domesticated? — No, not easily
-- Which bear is the largest? — Polar bear
-- Do crocodiles chew their food? — No
-- Where do koalas live? — Australia
-- Are dogs omnivores? — Yes
-- What breed is the smallest dog? — Chihuahua
-- Can cats see in the dark? — Yes, very well
-- Do rabbits eat meat? — No
-- What do hamsters store in their cheeks? — Food
-- Can parrots talk? — Some can mimic speech
-- Do guinea pigs sleep a lot? — Yes, in short naps
-- What pet is known for climbing glass? — Gecko
-- Do goldfish have good memory? — Better than people think
-- How long do turtles live? — Some over 100 years
-- What bird is a symbol of peace? — Dove
-- Which bird can’t fly? — Ostrich
-- What bird is known for mimicking sounds? — Mockingbird
-- Which bird lays the largest egg? — Ostrich
-- Can penguins live in warm climates? — Yes, some can
-- What bird is the fastest flyer? — Peregrine falcon
-- Do owls see in daylight? — Yes, but prefer night
-- What bird has colorful tail feathers? — Peacock
-- Which bird can hover in mid-air? — Hummingbird
-- Are flamingos born pink? — No, they're gray
-- What reptile can regrow its tail? — Lizard
-- Are snakes deaf? — They lack outer ears
-- Do frogs drink water? — Through their skin
-- What’s the only venomous lizard? — Gila monster
-- Can chameleons change color? — Yes
-- Are turtles reptiles? — Yes
-- Do crocodiles cry? — Yes, to lubricate eyes
-- What’s a baby frog called? — Tadpole
-- Do salamanders live in water? — Many do
-- Are all snakes venomous? — No
-- Do fish sleep? — Yes, they rest
-- What’s the biggest fish? — Whale shark
-- Can octopuses regrow arms? — Yes
-- Do jellyfish have brains? — No
-- How many hearts does an octopus have? — Three
-- What fish is known for inflating? — Pufferfish
-- Do sharks have bones? — No, cartilage
-- What sea creature has eight legs? — Octopus
-- Is coral an animal? — Yes
-- What’s the fastest fish? — Black marlin
-- Do ants sleep? — Sort of — they rest
-- What insect has the shortest lifespan? — Mayfly
-- Do bees die after stinging? — Only honeybees
-- What insect makes silk? — Silkworm
-- Are spiders insects? — No, they’re arachnids
-- How many legs does a spider have? — Eight
-- What bug glows at night? — Firefly
-- Can butterflies taste with their feet? — Yes
-- Which insect carries diseases? — Mosquito
-- Are ladybugs harmful? — No, they’re helpful
-- What sound does a cow make? — Moo
-- Do goats eat everything? — No, but they chew a lot
-- What’s a baby pig called? — Piglet
-- Can chickens fly? — Just short distances
-- Do sheep have teeth? — Yes, on the bottom
-- What do ducks eat? — Insects, plants, grains
-- Are horses herbivores? — Yes
-- Do cows have four stomachs? — One with four chambers
-- What color is most dairy cows? — Black and white
-- Do roosters lay eggs? — No
-- What animal laughs? — Hyena
-- Do sloths move fast? — No, very slowly
-- What animal has blue blood? — Horseshoe crab
-- Can camels store water? — No, they store fat
-- Do kangaroos walk backwards? — No
-- Are jellyfish immortal? — Some are biologically
-- What animal has no vocal cords? — Giraffe
-- Do ants farm? — Yes, some do
-- Can elephants jump? — No
-- What’s the smallest mammal? — Bumblebee bat
-- Are crows smart? — Yes, very
-- Do dolphins recognize themselves? — Yes
-- Can elephants mourn? — Yes
-- Do rats learn mazes? — Yes
-- Can pigs be trained? — Yes
-- Are octopuses intelligent? — Highly
-- Do dogs understand words? — Some do
-- Can cats solve problems? — Yes
-- Are bees capable of math? — Simple math, yes
-- Can animals feel empathy? — Some can
+- What is the fastest land animal? - Cheetah
+- What mammal lays eggs? - Platypus
+- What is the largest animal on Earth? - Blue whale
+- Do penguins fly? - No
+- What do pandas eat? - Bamboo
+- Which animal is known as the king of the jungle? - Lion
+- Can dolphins breathe underwater? - No, they breathe air
+- What animal never sleeps? - Bullfrog
+- What animal has the longest lifespan? - Greenland shark
+- Are bats blind? - No
+- Where do lions live? - Savannas of Africa
+- What do tigers eat? - Meat
+- Are elephants herbivores? - Yes
+- Do giraffes have vocal cords? - Yes, but they rarely use them
+- Which animal has a mane besides a lion? - Horse
+- What’s a baby deer called? - Fawn
+- Can zebras be domesticated? - No, not easily
+- Which bear is the largest? - Polar bear
+- Do crocodiles chew their food? - No
+- Where do koalas live? - Australia
+- Are dogs omnivores? - Yes
+- What breed is the smallest dog? - Chihuahua
+- Can cats see in the dark? - Yes, very well
+- Do rabbits eat meat? - No
+- What do hamsters store in their cheeks? - Food
+- Can parrots talk? - Some can mimic speech
+- Do guinea pigs sleep a lot? - Yes, in short naps
+- What pet is known for climbing glass? - Gecko
+- Do goldfish have good memory? - Better than people think
+- How long do turtles live? - Some over 100 years
+- What bird is a symbol of peace? - Dove
+- Which bird can’t fly? - Ostrich
+- What bird is known for mimicking sounds? - Mockingbird
+- Which bird lays the largest egg? - Ostrich
+- Can penguins live in warm climates? - Yes, some can
+- What bird is the fastest flyer? - Peregrine falcon
+- Do owls see in daylight? - Yes, but prefer night
+- What bird has colorful tail feathers? - Peacock
+- Which bird can hover in mid-air? - Hummingbird
+- Are flamingos born pink? - No, they're gray
+- What reptile can regrow its tail? - Lizard
+- Are snakes deaf? - They lack outer ears
+- Do frogs drink water? - Through their skin
+- What’s the only venomous lizard? - Gila monster
+- Can chameleons change color? - Yes
+- Are turtles reptiles? - Yes
+- Do crocodiles cry? - Yes, to lubricate eyes
+- What’s a baby frog called? - Tadpole
+- Do salamanders live in water? - Many do
+- Are all snakes venomous? - No
+- Do fish sleep? - Yes, they rest
+- What’s the biggest fish? - Whale shark
+- Can octopuses regrow arms? - Yes
+- Do jellyfish have brains? - No
+- How many hearts does an octopus have? - Three
+- What fish is known for inflating? - Pufferfish
+- Do sharks have bones? - No, cartilage
+- What sea creature has eight legs? - Octopus
+- Is coral an animal? - Yes
+- What’s the fastest fish? - Black marlin
+- Do ants sleep? - Sort of - they rest
+- What insect has the shortest lifespan? - Mayfly
+- Do bees die after stinging? - Only honeybees
+- What insect makes silk? - Silkworm
+- Are spiders insects? - No, they’re arachnids
+- How many legs does a spider have? - Eight
+- What bug glows at night? - Firefly
+- Can butterflies taste with their feet? - Yes
+- Which insect carries diseases? - Mosquito
+- Are ladybugs harmful? - No, they’re helpful
+- What sound does a cow make? - Moo
+- Do goats eat everything? - No, but they chew a lot
+- What’s a baby pig called? - Piglet
+- Can chickens fly? - Just short distances
+- Do sheep have teeth? - Yes, on the bottom
+- What do ducks eat? - Insects, plants, grains
+- Are horses herbivores? - Yes
+- Do cows have four stomachs? - One with four chambers
+- What color is most dairy cows? - Black and white
+- Do roosters lay eggs? - No
+- What animal laughs? - Hyena
+- Do sloths move fast? - No, very slowly
+- What animal has blue blood? - Horseshoe crab
+- Can camels store water? - No, they store fat
+- Do kangaroos walk backwards? - No
+- Are jellyfish immortal? - Some are biologically
+- What animal has no vocal cords? - Giraffe
+- Do ants farm? - Yes, some do
+- Can elephants jump? - No
+- What’s the smallest mammal? - Bumblebee bat
+- Are crows smart? - Yes, very
+- Do dolphins recognize themselves? - Yes
+- Can elephants mourn? - Yes
+- Do rats learn mazes? - Yes
+- Can pigs be trained? - Yes
+- Are octopuses intelligent? - Highly
+- Do dogs understand words? - Some do
+- Can cats solve problems? - Yes
+- Are bees capable of math? - Simple math, yes
+- Can animals feel empathy? - Some can
