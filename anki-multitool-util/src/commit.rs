@@ -71,7 +71,10 @@ mod tests {
         FileCommitBuffer::new(
             async |data| Ok(format!("prepared {data}")),
             async |data| {
-                writeln!(Arc::clone(&file).lock().expect("failed to get file"), "{data}")?;
+                writeln!(
+                    Arc::clone(&file).lock().expect("failed to get file"),
+                    "{data}"
+                )?;
                 Ok(())
             },
         )
@@ -118,7 +121,10 @@ mod tests {
                     Ok(data)
                 },
                 async |data| {
-                    writeln!(Arc::clone(&file).lock().expect("failed to get file"), "{data}")?;
+                    writeln!(
+                        Arc::clone(&file).lock().expect("failed to get file"),
+                        "{data}"
+                    )?;
                     Ok(())
                 }
             )

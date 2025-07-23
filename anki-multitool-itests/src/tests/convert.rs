@@ -1,12 +1,9 @@
 use serde_json::Value;
-use std::{
-    sync::LazyLock,
-    fs::read_to_string
-};
+use std::{fs::read_to_string, sync::LazyLock};
 
 use anki_multitool_core::ToolController;
-use anki_multitool_util::file;
 use anki_multitool_test_util::{env::TestEnv, server::MockAnkiServer, with_mserver};
+use anki_multitool_util::file;
 
 use crate::util;
 

@@ -1,42 +1,26 @@
-use colored::Colorize;
 use anyhow::Result;
+use colored::Colorize;
 
-use crate::config::{AUTHOR, ASCII_ART, APP_INFO, REPOSITORY};
+use crate::config::{APP_INFO, ASCII_ART, AUTHOR, REPOSITORY};
 
 pub fn print_info(version: &str) {
     for line in ASCII_ART {
         println!("{}", line.bold().blue());
     }
-    
-    println!(
-        "{}{}\n",
-        "by ".green(),
-        AUTHOR.bold().red()
-    );
 
-    println!(
-        "{}{}",
-        "version: ".green(),
-        version.bold().red()
-    );
-    
-    println!(
-        "{}{}\n",
-        "repository: ".green(),
-        REPOSITORY.bold().red()
-    );
-    
+    println!("{}{}\n", "by ".green(), AUTHOR.bold().red());
+
+    println!("{}{}", "version: ".green(), version.bold().red());
+
+    println!("{}{}\n", "repository: ".green(), REPOSITORY.bold().red());
+
     for line in APP_INFO {
         println!("{}", line.green());
     }
 }
 
 pub fn print_version(version: &str) {
-    println!(
-        "{}{}",
-        "v.".green(),
-        version.bold().blue()
-    );
+    println!("{}{}", "v.".green(), version.bold().blue());
 }
 
 pub fn print_new_deck(res: Result<u64>, deck_name: &str) {
@@ -70,11 +54,7 @@ pub fn print_decklist(decks: Result<Vec<String>>) {
             } else {
                 println!("{}", "decks:".green());
                 for deck in decks {
-                    println!(
-                        "{} {}",
-                        "-".green(),
-                        deck.bold().blue()
-                    );
+                    println!("{} {}", "-".green(), deck.bold().blue());
                 }
             }
         }

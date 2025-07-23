@@ -1,6 +1,6 @@
 use anyhow::Result;
+use std::{io::Error, path::Path};
 use tempfile::NamedTempFile;
-use std::{path::Path, io::Error};
 
 use anki_multitool_request::client::AnkiClient;
 
@@ -15,7 +15,7 @@ pub async fn load_decks(host: &str, port: u16, decks: Vec<String>) -> Result<()>
 }
 
 pub fn write_to_file<P: AsRef<Path>>(path: P, content: &str) -> Result<()> {
-    use std::{io::Write, fs::File};
+    use std::{fs::File, io::Write};
     File::create(path)?.write_all(content.as_bytes())?;
     Ok(())
 }

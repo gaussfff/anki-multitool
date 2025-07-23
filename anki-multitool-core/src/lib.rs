@@ -82,7 +82,7 @@ impl ToolController {
         if !path.as_ref().exists() {
             return Err(anyhow!("file {} does not exist", path.as_ref().display()));
         }
-        
+
         let deck_name = file::to_file_name(path.as_ref())?;
         self.new_deck(deck_name.as_str()).await?;
 
@@ -103,7 +103,7 @@ impl ToolController {
         if !path.as_ref().exists() {
             return Err(anyhow!("file {} does not exist", path.as_ref().display()));
         }
-        
+
         let deck_name = file::to_file_name(path.as_ref())?;
         self.new_deck(deck_name.as_str()).await?;
 
