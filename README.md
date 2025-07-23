@@ -22,6 +22,13 @@ sudo chmod +x install.sh
 ```
 Or mabye I'll make ready-to-use binaries in the future, so you can just download and build + run it.
 
+## Shell Completions
+Fish shell completions are available to provide command suggestions and autocompletion.
+
+### Fish Shell Setup
+Script will automatically install completions for the Fish shell. After installation, restart your fish shell or run `fish` to activate completions. 
+You'll now get suggestions when typing `anki-mtool` commands.
+
 ## Usage
 `anki-mtool <command> [options]`
 
