@@ -1,19 +1,19 @@
 [package]
-name = "anki-multitool-cli"
-edition = "2024"
+name = "anki-multitool-ds"
+description = "contains important data structures"
+edition.workspace = true
 version.workspace = true
 authors.workspace = true
 license.workspace = true
 repository.workspace = true
 homepage.workspace = true
-description.workspace = true
 keywords.workspace = true
 categories.workspace = true
 readme.workspace = true
 
-[[bin]]
-name = "anki-mtool"
-path = "src/main.rs"
+[features]
+test = []
 
 [dependencies]
-clap = { version = "4.5.40", features = ["derive"] }
+anyhow = { workspace = true }
+serde = { workspace = true }

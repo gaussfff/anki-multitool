@@ -1,0 +1,20 @@
+[package]
+name = "anki-multitool-test-util"
+description = "set of useful utils to test more easily"
+edition.workspace = true
+version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+keywords.workspace = true
+categories.workspace = true
+readme.workspace = true
+
+[dependencies]
+wiremock = "0.6.4"
+serde = { workspace = true }
+serde_json = { workspace = true }
+anyhow = { workspace = true }
+tempfile = { workspace = true }
+anki-multitool-ds = { path = "../anki-multitool-ds", features = ["test"] }
