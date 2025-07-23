@@ -35,7 +35,7 @@ pub async fn test_get_deck_names() {
         let controller = ToolController::new(HOST.to_string(), port);
 
         let deck_names = controller
-            .get_deck_names()
+            .deck_list()
             .await
             .expect("failed to get deck names");
 
@@ -62,7 +62,7 @@ pub async fn test_new_deck() {
         assert_eq!(deck_id, 0);
 
         let deck_names = controller
-            .get_deck_names()
+            .deck_list()
             .await
             .expect("failed to get deck names");
 

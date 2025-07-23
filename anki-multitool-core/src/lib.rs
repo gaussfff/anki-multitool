@@ -20,11 +20,11 @@ impl ToolController {
         }
     }
 
-    pub fn get_version(&self) -> &str {
+    pub fn version(&self) -> &str {
         env!("CARGO_PKG_VERSION")
     }
 
-    pub async fn get_deck_names(&self) -> Result<Vec<String>> {
+    pub async fn deck_list(&self) -> Result<Vec<String>> {
         self.client
             .deck_names_req()
             .await?
