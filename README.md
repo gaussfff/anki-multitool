@@ -1,3 +1,5 @@
+![anki-multitool-logo](https://github.com/gaussfff/anki-multitool/blob/master/resources/pics/anki-multitool-log.png)
+
 # anki-multitool (anki-mtool)
 Multitool for Anki - just useful multitool for Anki users. What it can do:
 - Export decks to JSON and Markdown files
