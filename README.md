@@ -92,6 +92,9 @@ and
 - What is the capital of Germany? - Berlin
 ```
 
+### More examples
+More examples you can find [here](https://github.com/gaussfff/anki-multitool/tree/master/resources/examples).
+
 ## License
 This software is under the MIT license. See details in [license file](https://github.com/gaussfff/anki-multitool/blob/master/LICENSE-MIT).
 
