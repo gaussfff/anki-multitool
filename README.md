@@ -14,13 +14,19 @@ Anki-Multitool (Anki-MTool) - just useful multitool for Anki users. What it can 
 - [AnkiConnect plugin with API version 6+](https://ankiweb.net/shared/info/2055492159)
 - [OpenSSL 3.5.0+ (*only for Linux users*)](https://openssl.org/)
 
-## Instalation
+## Installation
 You can install manually by cloning the repository and running the following command:
 ```bash
 sudo chmod +x install.sh
 ./install.sh
 ```
-Or mabye I'll make ready-to-use binaries in the future, so you can just download and build + run it.
+Or install through [Homebrew](https://brew.sh/) (MacOS only):
+```bash
+brew tap gaussfff/anki-multitool
+brew install anki-multitool
+```
+
+Details about homebrew formula you can find [here](https://github.com/gaussfff/homebrew-anki-multitool).
 
 ## Shell Completions
 Fish shell completions are available to provide command suggestions and autocompletion.
